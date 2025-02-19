@@ -18,8 +18,8 @@ public class Client {
     }
 
     public static void main(String[] args) {
+        Client client = new Client();
         try {
-            Client client = new Client();
             client.run();
         }catch (Exception ex){
             ex.printStackTrace();
